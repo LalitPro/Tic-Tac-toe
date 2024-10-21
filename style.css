@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #548687;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgb(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: #b0413e;
+  background-color: #ffffc7;
+}
+h1 {
+  font-size: 10vmin;
+  color: #fff;
+  filter: drop-shadow(0 0 5px #ffffc7);
+}
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+a {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  text-decoration: none;
+}
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+#reset-btn:hover {
+  background-color: #fff;
+  color: #191913;
+  font-weight: 700;
+  filter: drop-shadow(0 0 10px #fff);
+}
+a:hover {
+  background-color: #fff;
+  color: #191913;
+  font-weight: 700;
+  filter: drop-shadow(0 0 10px #fff);
+}
+#new-btn:hover {
+  background-color: #fff;
+  color: #191913;
+  font-weight: 700;
+  filter: drop-shadow(0 0 10px #fff);
+}
+
+#msg {
+  color: #ffffc7;
+  font-size: 8vmin;
+}
+
+.msg-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 105vh;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
+
+p {
+  color: rgb(42, 235, 84);
+  filter: drop-shadow(0 0 10px rgb(255, 255, 131));
+}
+
+.box:hover {
+  filter: drop-shadow(0 0 15px #fff);
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .container{
+    margin: 20px;
+  }
+}
+span {
+  color: #fff;
+  filter: drop-shadow(0 0 5px red);
+  display: block;
+  font-size: 30px;
+}
